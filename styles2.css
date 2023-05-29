@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.reset {
+    display: none;
+}
+
+.pImg {
+    height: 10rem;
+    width: 10rem;
+}

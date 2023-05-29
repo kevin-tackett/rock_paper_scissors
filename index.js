@@ -1,6 +1,9 @@
 const options = ["rock", "paper", "scissors"]
 
+const playerButtons = document.querySelectorAll('.playerImgs')
+
 function getComputerChoice() {
+    //todo - update the DOM with computer selection
     const choice = options[Math.floor(Math.random() * options.length)]
     return choice;
 }
@@ -76,5 +79,8 @@ function game() {
     }
 }
 
-game()
+// game()
+
+
+
 
